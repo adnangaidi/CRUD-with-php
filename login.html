@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style/stylelogin.css">
+</head>
+
+<body>
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+    <source src="background.mp4" type="video/mp4">
+  </video>
+    <div class="forma">
+        <form id="for" method="post" action="login.php">
+            <div class="inp">
+                <label>CIN:</label><br>
+                <input class="input" type="text" name="cin" placeholder="CIN"><br><br>
+            </div>
+            <div class="inp">
+                <label>Mot de passe:</label><br>
+                <input class="input" type="password" name="pass" placeholder="PassWord"><br><br>
+            </div>
+            <div class="inp">
+                <label>Type:</label><br>
+                <select class="selec" name="type">
+                    <option value="Directeur">Directeur</option>
+                    <option value="etudiant">Etudiant</option>
+                </select><br><br><br>
+            </div>
+            <input class="sub" type="submit" value="Connecter">
+        </form>
+    </div>
+
+</body>
+
+</html>
