@@ -1,5 +1,5 @@
 <?php 
-$dbname="exercice";
+$dbname="Entrer le nom de data base";
 $localh="mysql:host=localhost;dbname=$dbname";
 $user="root";
 $pass="";
